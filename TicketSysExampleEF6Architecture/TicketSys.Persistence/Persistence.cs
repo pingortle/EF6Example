@@ -13,6 +13,7 @@ using System.Data.Entity.SqlServer;
 namespace TicketSys.Persistence
 {
     #region Not Cool
+    // http://stackoverflow.com/a/19130718
     internal static class SuperUglyHack
     {
         private static void FixEfProviderBadBadBad()
