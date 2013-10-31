@@ -130,14 +130,6 @@ namespace TicketSys.Persistence
         #endregion
     }
 
-    public static class RepositoryFactory
-    {
-        public static IRepository MakeTicketingRepository()
-        {
-            return new Repository(new TicketingContext());
-        }
-    }
-
     public class Repository : IRepository
     {
         private DbContext _context;
@@ -179,6 +171,11 @@ namespace TicketSys.Persistence
             if (_context != null)
                 _context.Dispose();
         }
+    }
+
+    public class TicketingRepository : Repository
+    {
+        public TicketingRepository() : base(new TicketingContext()) { }
     }
 
     public class TicketSysDbConfiguration : DbConfiguration
