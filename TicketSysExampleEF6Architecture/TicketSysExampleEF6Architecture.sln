@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSys.Domain", "TicketSys.Domain\TicketSys.Domain.csproj", "{62E714D3-AB19-498F-AB26-2CBB3E1A6D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSys.Persistence", "TicketSys.Persistence\TicketSys.Persistence.csproj", "{F1AA4C0B-96DA-4832-B323-EAA29C02D2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSys", "TicketSys\TicketSys.csproj", "{AAEDF665-267E-4EE2-9FD1-663F068C36AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E714D3-AB19-498F-AB26-2CBB3E1A6D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E714D3-AB19-498F-AB26-2CBB3E1A6D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E714D3-AB19-498F-AB26-2CBB3E1A6D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E714D3-AB19-498F-AB26-2CBB3E1A6D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AA4C0B-96DA-4832-B323-EAA29C02D2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AA4C0B-96DA-4832-B323-EAA29C02D2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AA4C0B-96DA-4832-B323-EAA29C02D2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AA4C0B-96DA-4832-B323-EAA29C02D2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEDF665-267E-4EE2-9FD1-663F068C36AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEDF665-267E-4EE2-9FD1-663F068C36AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEDF665-267E-4EE2-9FD1-663F068C36AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEDF665-267E-4EE2-9FD1-663F068C36AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
