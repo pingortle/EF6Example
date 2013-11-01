@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Ninject;
+using Ninject.Extensions.NamedScope;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TicketSys.Domain;
 using TicketSys.Persistence;
-using Ninject;
-using Ninject.Extensions.NamedScope;
 
 namespace TicketSys
 {

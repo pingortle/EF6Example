@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
-using TicketSys.Domain;
-using System.Reflection;
 using System.Data.Entity.Infrastructure;
-using System.Data.Entity.SqlServer;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using System.Reflection;
+using TicketSys.Domain;
 
 namespace TicketSys.Persistence
 {
